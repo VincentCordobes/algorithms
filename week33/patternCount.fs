@@ -7,9 +7,9 @@ let solve line =
   let rec aux acc counting list =
     match counting, list with
     | _, [] -> acc
-    | true, '1'::'0'::tail -> aux (acc+1) false ('1'::tail)
+    | true, '1'::tail -> aux (acc+1) false ('1'::tail)
     | true, '0'::tail -> aux (acc) true (tail)
-    | false, '1'::tail -> aux (acc) true (tail)
+    | _, '1'::'0'::tail -> aux (acc) true (tail)
     | _, _::tail -> aux (acc) false (tail)
   aux 0 false (explode line)
 
