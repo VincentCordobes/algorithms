@@ -1,2 +1,9 @@
 # mypy
 .mypy_cache/
+
+# macos stuffs
+.DS_Store
+
+# mypy
+.mypy_cache/
+

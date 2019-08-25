@@ -1,3 +1,3 @@
-# hackerrank
+# Algorithms
 
-My solutions in F# to HackerRank problems (https://www.hackerrank.com)
+🙇‍♂️ My solutions to algorithms problems
